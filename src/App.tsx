@@ -1,12 +1,11 @@
 import React from 'react';
-// import logo from './logo.svg';
-import './App.css';
+import './App.css' ;
+import About from './Components/team2/About/About'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      FreeLancer
-    </h1>
+    <About/>
+      
   )
 }
 
