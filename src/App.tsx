@@ -1,12 +1,14 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import Services from './components/team2/Services/Services'
+
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      FreeLancer
-    </h1>
+    <>
+   <Services></Services>
+    </>
   )
 }
 
