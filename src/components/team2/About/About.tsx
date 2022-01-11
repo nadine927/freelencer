@@ -11,10 +11,10 @@ export default function About (){
           </div>
             <div className="flex justify-content relative z-20 pt-16">
                <p className="text-2xl px-8 pl-16 text-white">Home</p>   
-               <p className="text-2xl px-8 text-yellow-300">About</p>
+               <p className="text-2xl px-8 text-amber-300"><b>About</b></p>
                <p className="text-2xl px-8 text-white">Services</p>
                <p className="text-2xl px-8 text-white">Support</p>
-               <p className="text-xl px-8 text-yellow-500">Join Our Community</p>
+               <p className="text-xl px-8 text-amber-300">Join Our Community</p>
 
             </div>
 
