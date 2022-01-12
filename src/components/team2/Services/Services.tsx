@@ -21,7 +21,7 @@ export default function Services (){
         </div>
         <div className="h-20 w-1/2  flex relative mt-6">
             <div className="h-10 w-1/2 ml-48 mt-6">
-            <input type="text" className="h-10 w-full"  />
+            <input type="text" placeholder=" Enter Key" className="h-10 w-full"  />
             </div>
             <div className="h-10 w-1/4 bg-amber-300 mt-6">
                 <button className="btn text-xl ml-16 mt-1  text-white">Search</button>

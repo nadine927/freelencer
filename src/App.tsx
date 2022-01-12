@@ -14,18 +14,18 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" >
-
-        </Route>
-        <Route path="/about" >
-
-        </Route>
-        <Route path="/services" >
         <Services></Services>
         </Route>
-        <Route path="/support" >
+        <Route path="/about" element={FrontEndEnums.About} >
 
         </Route>
-        <Route path="/join-community" >
+        <Route path="/services" element={FrontEndEnums.About} >
+        <Services></Services>
+        </Route>
+        <Route path={FrontEndEnums.Support}>
+
+        </Route>
+        <Route path={FrontEndEnums.JoinCommunity} >
 
         </Route>
       </Switch>
