@@ -1,5 +1,7 @@
 export enum FrontEndEnums{
     Home = '/',
     About = "/about",
-    Service = "/services"
+    Service = "/services",
+    Support = "/support",
+    JoinCommunity = "/join-community"
 }

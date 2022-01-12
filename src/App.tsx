@@ -22,6 +22,12 @@ function App() {
         <Route path="/services" >
         <Services></Services>
         </Route>
+        <Route path="/support" >
+
+        </Route>
+        <Route path="/join-community" >
+
+        </Route>
       </Switch>
     </Router>
   )
