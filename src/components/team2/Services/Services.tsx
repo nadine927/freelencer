@@ -20,14 +20,14 @@ export default function Services (){
             </div>
         </div>
         <div className="h-20 w-1/2  flex relative mt-6">
-            <div className="h-10 w-1/2 ml-48 mt-6 bg-green-400">
+            <div className="h-10 w-1/2 ml-48 mt-6">
             <input type="text" className="h-10 w-full"  />
             </div>
             <div className="h-10 w-1/4 bg-amber-300 mt-6">
                 <button className="btn text-xl ml-16 mt-1  text-white">Search</button>
             </div>
         </div>
-        <div className="h-40 w-1/2 relative">
+        <div className="h-40 w-1/2 relative mt-5">
         <div className="flex justify-evenly mt-1 ">
          <div className="h-10 w-44 border-solid border-2 border-amber-300 ml-11 mt-2">
              <a href="">
