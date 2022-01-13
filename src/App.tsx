@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './components/team1/Home';
 import './App.css';
+import Support from './components/team1/support';
 import Services from './components/team2/Services/Services'
 import { BrowserRouter ,Route, Routes } from 'react-router-dom';
 // import { FrontEndEnums } from './components/utils/enum'
@@ -13,11 +14,12 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/services" element={<Services/>} />
-        <Route path="/support" element={<About/>} />
+        <Route path="/support" element={<Support/>} />
         <Route path="/findjob" element={<About/>} />
         <Route path="/joincommunity" element={<About/>} />
     </Routes>
     </BrowserRouter>
+
 
 
   )

@@ -14,7 +14,7 @@ export default function Services (){
         <img src={BackgroundImage} className="w-full h-screen absolute" />
         <div className="h-20 w-1/2 relative">
             <div className="flex justify-evenly h-20 w-full">
-            <a className="pt-14 text-white text-xl" href={FrontEndEnums.Home} >Home</a>
+            <a className="pt-14 text-white text-xl" href={FrontEndEnums.Home} >HOME</a>
             <a className="pt-14 text-white text-xl" href={FrontEndEnums.About}>About</a>
             <a className="pt-14 text-gold font-bold text-xl" href={FrontEndEnums.Service}>Services</a>
             <a className="pt-14 text-white text-xl" href={FrontEndEnums.Support }>Support</a>
