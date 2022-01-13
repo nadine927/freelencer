@@ -1,5 +1,4 @@
 import React from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Services from './components/team2/Services/Services'
 import {
@@ -8,6 +7,8 @@ import {
   Route
 } from "react-router-dom";
 import { FrontEndEnums } from './components/utils/enum'
+import About from './components/team2/About/About'
+// import Default from './components/Default/Default'
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
         <Services></Services>
         </Route>
         <Route path="/about" element={FrontEndEnums.About} >
-
+        <About></About>
         </Route>
-        <Route path="/services" element={FrontEndEnums.About} >
+        <Route path="/services" element={FrontEndEnums.Service} >
         <Services></Services>
         </Route>
         <Route path={FrontEndEnums.Support}>
@@ -30,6 +31,7 @@ function App() {
         </Route>
       </Switch>
     </Router>
+
   )
 }
 
