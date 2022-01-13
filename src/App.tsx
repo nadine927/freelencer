@@ -1,36 +1,24 @@
 import React from 'react';
+import Home from './components/team1/Home';
 import './App.css';
 import Services from './components/team2/Services/Services'
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import { FrontEndEnums } from './components/utils/enum'
+import { BrowserRouter ,Route, Routes } from 'react-router-dom';
+// import { FrontEndEnums } from './components/utils/enum'
 import About from './components/team2/About/About'
-// import Default from './components/Default/Default'
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <Route path="/" >
-        <Services></Services>
-        </Route>
-        <Route path="/about" element={FrontEndEnums.About} >
-        <About></About>
-        </Route>
-        <Route path="/services" element={FrontEndEnums.Service} >
-        <Services></Services>
-        </Route>
-        <Route path={FrontEndEnums.Support}>
+    <BrowserRouter>
+    <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/services" element={<Services/>} />
+        <Route path="/support" element={<About/>} />
+        <Route path="/findjob" element={<About/>} />
+        <Route path="/joincommunity" element={<About/>} />
+    </Routes>
+    </BrowserRouter>
 
-        </Route>
-        <Route path={FrontEndEnums.JoinCommunity} >
-
-        </Route>
-      </Switch>
-    </Router>
 
   )
 }

@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
 import image from '../../Images/image 1.png'
+import { FrontEndEnums } from '../../utils/enum'
 
 export default function About (){
 
@@ -11,11 +13,11 @@ export default function About (){
                 <img src={image} className='w-full h-full'/>
           </div>
             <div className="flex justify-content relative z-20 pt-16">
-               <p className="text-2xl px-8 pl-16 text-white">Home</p>
-               <p className="text-2xl px-8 text-amber-300"><b>About</b></p>
-               <p className="text-2xl px-8 text-white">Services</p>
-               <p className="text-2xl px-8 text-white">Support</p>
-               <p className="text-xl px-8 text-amber-300">Join Our Community</p>
+               <a className="text-2xl px-8 pl-16 text-white" href={FrontEndEnums.Home}>Home</a>
+               <a className="text-2xl px-8 text-amber-300" href={FrontEndEnums.About}><b>About</b></a>
+               <a className="text-2xl px-8 text-white" href={FrontEndEnums.Service}>Services</a>
+               <a className="text-2xl px-8 text-white" href={FrontEndEnums.Support}>Support</a>
+               <a className="text-xl px-8 text-amber-300" href={FrontEndEnums.JoinCommunity}>Join Our Community</a>
 
             </div>
 
