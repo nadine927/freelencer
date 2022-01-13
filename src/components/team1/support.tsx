@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../../image/image.png'
+import image from '../Images/image 1.png'
 import { FrontEndEnums } from '../utils/enum'
 
 export default function Support()
