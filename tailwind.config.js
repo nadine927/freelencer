@@ -5,17 +5,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'purple': '#3f3cbb',
-      'midnight': '#121063',
-      'metal': '#565584',
-      'tahiti': '#3ab7bf',
-      'silver': '#ecebff',
-      'bubble-gum': '#ff77e9',
-      'bermuda': '#78dcca',
       'gold': '#EDB50F',
+      },
+      fontFamily: {
+        'sans': ['ui-sans-serif', 'system-ui','Roboto', 'Arial','Helvetica neue','Noto sans','Segoe UI'],
+        'serif': ['ui-serif', 'Georgia', 'robot'],
+        'mono': ['ui-monospace', 'SFMono-Regular'],
+        'display': ['Oswald'],
+        'body': ['"Open Sans"'],
       }
     },
   },

@@ -2,9 +2,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import BackgroundImage from '../../Images/image 1.png'
-import { FrontEndEnums } from '../../utils/enum'
-import Navbar from '../../team1/Navbar'
+import BackgroundImage from '../Images/image 1.png'
+import { FrontEndEnums } from '../utils/enum'
+import Navbar from './Navbar'
 
 export default function Services (){
 
