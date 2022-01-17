@@ -4,7 +4,7 @@
 import React from 'react'
 import BackgroundImage from '../../Images/image 1.png'
 import { FrontEndEnums } from '../../utils/enum'
-
+import Navbar from '../../team1/Navbar'
 
 export default function Services (){
 
@@ -12,15 +12,7 @@ export default function Services (){
         <>
         <div className="h-screen w-full">
         <img src={BackgroundImage} className="w-full h-screen absolute" />
-        <div className="h-20 w-1/2 relative">
-            <div className="flex justify-evenly h-20 w-full">
-            <a className="pt-14 text-white text-xl" href={FrontEndEnums.Home} >HOME</a>
-            <a className="pt-14 text-white text-xl" href={FrontEndEnums.About}>About</a>
-            <a className="pt-14 text-gold font-bold text-xl" href={FrontEndEnums.Service}>Services</a>
-            <a className="pt-14 text-white text-xl" href={FrontEndEnums.Support }>Support</a>
-            <a className="pt-14 text-gold font-bold text-xl" href={FrontEndEnums.JoinCommunity }>Join our Community</a>
-            </div>
-        </div>
+       <Navbar/>
         <div className="h-20 w-1/2  flex relative mt-6">
             <div className="h-10 w-1/2 ml-48 mt-6">
             <input type="text" placeholder=" Enter Key" className="h-10 w-full"  />
