@@ -3,7 +3,7 @@
 import React from 'react'
 import image from '../../Images/image 1.png'
 import { FrontEndEnums } from '../../utils/enum'
-
+import Navbar from '../../team1/Navbar'
 export default function About (){
 
     return(
@@ -12,15 +12,7 @@ export default function About (){
           <div className='w-full h-full absolute'>
                 <img src={image} className='w-full h-full'/>
           </div>
-          <div className="h-20 w-1/2 relative">
-            <div className="flex justify-evenly h-20 w-full">
-            <a className="pt-14 text-white text-xl" href={FrontEndEnums.Home} >HOME</a>
-            <a className="pt-14 text-gold font-bold text-xl" href={FrontEndEnums.About}>About</a>
-            <a className="pt-14 text-white  text-xl" href={FrontEndEnums.Service}>Services</a>
-            <a className="pt-14  text-white text-xl" href={FrontEndEnums.Support }>Support</a>
-            <a className="pt-14 text-gold font-bold text-xl" href={FrontEndEnums.JoinCommunity }>Join our Community</a>
-            </div>
-        </div>
+         <Navbar/>
 
             <div className="relative z-20 mt-48 pl-16 text- text-white">
                <p>We enable companies, individual and privates to successfully work together in a<br></br>
