@@ -28,7 +28,7 @@ export default function Navbar(){
                 <a className=" md:text-black text-white hover:font-bold  hover:text-gold text-xl" href={FrontEndEnums.Home} >Home</a>
             </div>
             <div className='h-10 ml-6 w-5/6 md:border-0 border-b-2 border-gray-400'><a className=" text-white md:text-black text-xl hover:font-bold  hover:text-gold" href={FrontEndEnums.About}>About</a></div>
-            <div className='h-10 ml-6 w-5/6 md:border-0 border-b-2 border-gray-400'><a className=" text-white md:text-black  text-xl hover:font-bold  hover:text-gold" href={FrontEndEnums.Service}>Servicess</a></div>
+            <div className='h-10 ml-6 w-5/6 md:border-0 border-b-2 border-gray-400'><a className=" text-white md:text-black  text-xl hover:font-bold  hover:text-gold" href={FrontEndEnums.Service}>Services</a></div>
             <div className='h-10 ml-6 w-5/6 md:border-0 border-b-2 border-gray-400'><a className="  text-white md:text-black text-xl hover:font-bold  hover:text-gold" href={FrontEndEnums.Support }>Support</a></div>
             <div className='h-10 ml-6 w-5/6 md:border-0 border-b-2 border-gray-400'><a className=" md:text-black  text-white text-xl hover:font-bold  hover:text-gold" href={FrontEndEnums.JoinCommunity }>Join our Community</a></div>
 
