@@ -19,7 +19,7 @@ export default function Home(){
 
    <div className='h-14 w-full mt-2  flex '>
        <div className='h-14 w-3/6 border-2 border-gold ml-4'>
-            <h4 className='text-center text-white pt-3 text-base md:text-xl font-bold md:pt-2.5'>Hire a pro freelance</h4>
+            <h4 className='text-center text-white pt-3 text-base md:text-xl font-bold md:pt-2.5'>Hire a pro freelancer</h4>
        </div>
        <div className='h-14 w-1/3 bg-gold ml-3'>
        <h4 className='text-center text-white pt-4 text-base md:text-xl font-bold md:pt-3'>Hire a team</h4>
