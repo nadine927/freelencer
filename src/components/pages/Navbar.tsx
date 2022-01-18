@@ -16,7 +16,6 @@ export default function Navbar(){
                 <a className="pt-14 text-white  text-2xl font-serif" href={FrontEndEnums.Service}>Services</a>
                 <a className="pt-14  text-white text-2xl font-serif" href={FrontEndEnums.Support }>Support</a>
                 <a className="pt-14 text-gold font-bold text-2xl font-serif" href={FrontEndEnums.JoinCommunity }>Join our Community</a>
-
                 </div>
             </div>
             <div onClick={toggleMe} className="md:hidden " >

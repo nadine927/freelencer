@@ -1,15 +1,15 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import BackgroundImage from '../Images/image 1.png'
 import Navbar from './Navbar'
+import Background from './Background'
 export default function Home(){
 
 
     return(
         <>
         <div className="h-screen w-full">
-        <img src={BackgroundImage} className="w-full hidden md:block h-screen absolute " />
+        <Background/>
         <Navbar/>
 
         <div className='relative z-20 mt-72 px-12 ml-12' >
