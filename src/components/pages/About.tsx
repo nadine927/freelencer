@@ -5,30 +5,31 @@ import React from 'react'
 import image from '../Images/image 1.png'
 import { FrontEndEnums } from '../utils/enum'
 import Navbar from './Navbar'
+import Background from './Background'
+
 export default function About (){
 
     return(
         <>
-       <div className="">
-          <div className='w-full h-full absolute'>
-                <img src={image} className='w-full h-full'/>
-          </div>
+       <div className="h-full w-full bg-mobile ">
+        <Background/>
          <Navbar/>
 
-            <div className="relative z-20 mt-48 pl-16 text- text-white">
-               <p>We enable companies, individual and privates to successfully work together in a<br></br>
+            <div className="relative mt-52 md:mt-80 md:w-1/2 w-5/6 ml-5 text-white">
+               <p className='md:ml-11'>We enable companies, individual and privates to successfully
+               work together in a<br></br>
                    professional virtual colaboration, with trusted environment.
                </p><br></br>
-               <p>We focus exculsively in high quality and cost-effective and implementation of<br></br> services.
+               <p className='md:ml-11'>We focus exculsively in high quality and cost-effective and implementation of<br></br> services.
                    we are advancing on a tremendous pace and with involvemrnt of skilled<br></br> and experienced people working
                    in the organization
                </p>
              </div>
 
-            <div className='flex justify-content grid-grid-col-3 gap-4 text-2xl relative z-20 mt-12 pl-12'>
-                <div className="h-12 py-2 w-26 border-2 border-gold text-xl px-8 text-white"><p><b>Web Based App Dev</b></p></div>
-                <div className="h-12 py-2 w-26 border-2 border-gold text-xl border-border-4 px-8 text-white"><p><b>Mobil App Dev</b></p></div>
-                <div className="h-12 py-2 w-26 border-2 border-gold text-xl border-border-4 px-8 text-white"><p><b>USSD Dev</b></p></div>
+            <div className='text-2xl md:ml-16 ml-6 md:flex h-44 w-5/6 md:w-1/2 relative mt-2'>
+                <div className="md: mt-2 h-12 py-2 w-26 border-2 border-gold text-xl text-white px-8"><p><b>Web Based App Dev</b></p></div>
+                <div className="mt-2 md:ml-2 h-12 py-2 w-26 border-2 border-gold text-xl border-border-4 px-8 text-white"><p><b>Mobil App Dev</b></p></div>
+                <div className="mt-2 md:ml-2 h-12 py-2 w-26 border-2 border-gold text-xl border-border-4 px-8 text-white"><p><b>USSD Dev</b></p></div>
 
             </div>
 
