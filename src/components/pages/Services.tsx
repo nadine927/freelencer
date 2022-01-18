@@ -76,7 +76,7 @@ export default function Services (){
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Data Collection</h5>
+            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Networking</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
@@ -106,7 +106,7 @@ export default function Services (){
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Database Admin</h5>
+            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Database</h5>
 
             </div>
             </div>
@@ -116,7 +116,7 @@ export default function Services (){
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Machine Learning</h5>
+            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Book Design</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
