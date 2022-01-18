@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
       'gold': '#EDB50F',
+      'mobile': '#24292f',
       },
       fontFamily: {
         'sans': ['ui-sans-serif', 'system-ui','Roboto', 'Arial','Helvetica neue','Noto sans','Segoe UI'],
