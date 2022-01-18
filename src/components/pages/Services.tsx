@@ -130,7 +130,7 @@ export default function Services (){
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Image Edito</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Image Editor</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
