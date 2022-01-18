@@ -13,7 +13,7 @@ export default function Navbar(){
         </div>
        <div className="h-0 md:h-0 w-full md:w-1/2 relative bg-mobile">
             <div className="hidden md:block">
-                <div className="flex justify-between h-20 w-full ml-20 md:ml-14">
+                <div className="flex justify-between h-20 w-full ml-20 md:ml-8">
                 <a className="pt-14 text-gold font-bold text-2xl font-serif " href={FrontEndEnums.Home} >Home</a>
                 <a className="pt-14 text-white text-2xl font-serif" href={FrontEndEnums.About}>About</a>
                 <a className="pt-14 text-white  text-2xl font-serif" href={FrontEndEnums.Service}>Services</a>
