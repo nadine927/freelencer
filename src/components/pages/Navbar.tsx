@@ -8,7 +8,7 @@ export default function Navbar(){
         console.log(toggle)
     }
     return(<>
-        <div onMouseOver={toggleMe} className="md:hidden bg-mobile h-14  md:h-0 w-full  md:w-0" >
+        <div onClick={toggleMe} className="md:hidden bg-mobile h-14  md:h-0 w-full  md:w-0" >
                 <  FaBars size={45} style={{color:'white'}} className='ml-3 pt-3' />
         </div>
        <div className="h-0 md:h-0 w-full md:w-1/2 relative bg-mobile">
