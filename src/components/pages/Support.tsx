@@ -1,5 +1,4 @@
 import React from 'react';
-// import { FrontEndEnums } from '../utils/enum'
 import Background from './Background'
 import Navbar from './Navbar'
 
@@ -11,7 +10,7 @@ export default function Support()
        <Background/>
        <Navbar/>
        </div>
-       
+
             <div className="flex bg-mobile">
             <div className="relative w-full mt-64 md:mt-64 mx-10 ">
                 <div className='w-full md:flex'>
