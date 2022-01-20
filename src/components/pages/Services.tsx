@@ -21,16 +21,16 @@ export default function Services (){
         </div>
         <div className="h-20 md:bg-black bg-mobile md:w-1/4 w-full flex md:ml-2 relative mt-52 md:mt-28">
             <div className="h-10 md:w-2/3 w-3/6 bg-white ml-0 mt-6">
-            <input type="text" placeholder="" className="h-10 w-full"  />
+            <input type="text" placeholder="" className="h-10 w-full outline-none mx-3"/>
             </div>
             <div className="h-10 w-1/3 bg-gold mt-6">
-                <button className="btn text-xl ml-10 mt-1  text-white">Search</button>
+                <button className="btn text-xl ml-10 mt-1 text-white md:mx-5 ">Search</button>
             </div>
         </div>
         </div>
 
         </div>
-        <div className='h-96 md:relative md:bg-black bg-mobile md:w-1/2 md:mt-28 mt-0 md:ml-20'>
+        <div className='h-96 md:relative md:bg-black bg-mobile md:w-1/2 md:mt-10 mt-0 md:ml-20'>
             <div className='flex mt-0 md:mt-2 mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
                 <h5 className='text-center text-white md:pt-1 pt-2 text-sm md:text-base font-bold'>Web App Dev</h5>
