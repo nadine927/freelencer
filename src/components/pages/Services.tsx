@@ -33,108 +33,108 @@ export default function Services (){
         <div className='h-96 md:relative md:bg-black bg-mobile md:w-1/2 md:mt-28 mt-0 md:ml-20'>
             <div className='flex mt-0 md:mt-2 mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
-                <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Web Based App Dev</h5>
+                <h5 className='text-center text-white md:pt-1 pt-2 text-sm md:text-base font-bold'>Web App Dev</h5>
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Mobile App Dev</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Mobile App Dev</h5>
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Ussd App Dev</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Ussd App Dev</h5>
 
             </div>
             </div>
             <div className='flex mt-2 mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Graphic Design</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Graphic Design</h5>
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Audio Producer</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Audio Producer</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Data Science</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Data Science</h5>
 
             </div>
             </div>
             <div className='flex mt-2  mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Script Writer</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Script Writer</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>AI</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>AI</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Lawyer</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Lawyer</h5>
 
             </div>
             </div>
             <div className='flex mt-2  mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Marketing</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Marketing</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Data Collection</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Networking</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Sales</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Sales</h5>
 
             </div>
             </div>
             <div className='flex mt-2  mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Audio Producer</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Audio Producer</h5>
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Typing</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Typing</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>UI/UX</h5>
-
-            </div>
-            </div>
-            <div className='flex mt-2  mr-2 md:mr-0 ml-2 md:ml-0'>
-            <div className='h-10 w-2/3 border-2 border-gold'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Front end</h5>
-            </div>
-            <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Back end</h5>
-
-            </div>
-            <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Database Admin</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>UI/UX</h5>
 
             </div>
             </div>
             <div className='flex mt-2  mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Data Entry</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Front end</h5>
+            </div>
+            <div className='h-10 w-2/3 border-2 border-gold ml-2'>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Back end</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Machine Learning</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Database</h5>
+
+            </div>
+            </div>
+            <div className='flex mt-2  mr-2 md:mr-0 ml-2 md:ml-0'>
+            <div className='h-10 w-2/3 border-2 border-gold'>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Data Entry</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Full stack</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Book Design</h5>
+
+            </div>
+            <div className='h-10 w-2/3 border-2 border-gold ml-2'>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Full stack</h5>
 
             </div>
             </div>
             <div className='flex mt-2 mr-2 md:mr-0 ml-2 md:ml-0 '>
             <div className='h-10 w-2/3 border-2 border-gold'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Video Editor</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Video Editor</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Image Edito</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Image Editor</h5>
 
             </div>
             <div className='h-10 w-2/3 border-2 border-gold ml-2'>
-            <h5 className='text-center text-white pt-1 text-sm md:text-base font-bold'>Audio Producer</h5>
+            <h5 className='text-center text-white pt-2 md:pt-1 text-sm md:text-base font-bold'>Audio Producer</h5>
 
             </div>
             </div>
