@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './components/pages/Home';
 import './App.css';
-import Support from './components/pages/support';
+import Support from './components/pages/Support';
 import Services from './components/pages/Services'
 import { BrowserRouter ,Route, Routes } from 'react-router-dom';
 // import { FrontEndEnums } from './components/utils/enum'
