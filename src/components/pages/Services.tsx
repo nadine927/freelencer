@@ -30,11 +30,7 @@ export default function Services (){
         </div>
 
         </div>
-<<<<<<< HEAD
-        <div className='h-96 md:relative md:bg-black bg-mobile md:w-1/2 md:mt-8 mt-0 md:ml-20'>
-=======
         <div className='h-96 md:relative md:bg-black bg-mobile md:w-1/2 md:mt-10 mt-0 md:ml-20'>
->>>>>>> 9039cb5b5a88de5b1def39ceed383f7de437c78c
             <div className='flex mt-0 md:mt-2 mr-2 md:mr-0 ml-2 md:ml-0'>
             <div className='h-10 w-2/3 border-2 border-gold'>
                 <h5 className='text-center text-white md:pt-1 pt-2 text-sm md:text-base font-bold'>Web App Dev</h5>
