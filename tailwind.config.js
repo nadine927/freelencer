@@ -14,6 +14,10 @@ module.exports = {
         'mono': ['ui-monospace', 'SFMono-Regular'],
         'display': ['Oswald'],
         'body': ['"Open Sans"'],
+        'Rampart': ["Rampart One", "cursive"],
+        'Robotto': ["Robotto"],
+        'Nunito': ['Nunito'],
+        'Poppins':['Poppins'],
       }
     },
   },
