@@ -35,7 +35,7 @@ export default function Home(){
         <Navbar/>
 
         {show?
-        <div data-aos="fade-down" className='h-auto md:mt-44 mt-52 md:ml-16 md:w-1/3 relative'>
+        <div data-aos="fade-down" className=' h-auto md:mt-44 mt-52 md:ml-16 md:w-1/3 relative'>
            <div  className='h-16 w-5/6 md:ml-0 ml-5 md:w-full'>
                <p className='text-white md:text-xl text-base '>Work with an individual freelancer of your choice, schedure
                 <span> time share ideas and payment you will thank us later</span>
@@ -104,7 +104,7 @@ export default function Home(){
         <span></span>
         }
         {wnd?
-                <div className='relative md:mt-80 md:h-60 mt-56 md:px-12 md:w-1/2' >
+                <div className='relative  md:mt-80 md:h-60 mt-56 md:px-12 md:w-1/2' >
                 <p className='text-white font-bold text-2xl md:text-3xl ml-3'><span className='text-gold px-2'>WE ARE</span><span className='text-gold md:text-white'>NIGHT </span> <span>DEVELOPERS</span></p>
                 <p className='text-white text-lg mt-2 px-2 ml-3'> Hire affordable professinal individual or a team of freelancers</p>
                 <p className='text-white text-lg px-2 ml-3'>We are here to faster your work, and deadlines to help your stay the best</p>
@@ -123,7 +123,7 @@ export default function Home(){
                 </div>
             </div>
             </div>:
-            <span>
+            <span className=''>
 
             </span>
     }
