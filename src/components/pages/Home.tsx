@@ -30,12 +30,12 @@ export default function Home(){
 
     return(
         <>
-        <div className="h-full w-full bg-mobile ">
+        <div className="h-screen w-full bg-mobile ">
         <Background/>
         <Navbar/>
 
         {show?
-        <div data-aos="fade-down" className='h-auto md:mt-32 mt-52 md:ml-16 md:w-2/5 font-Poppins relative'>
+        <div data-aos="fade-down" className='h-full bg-mobile md:mt-32 mt-52 md:ml-16 md:w-2/5 font-Poppins relative'>
            <div  className='h-16 w-full md:ml-0 ml-5 md:w-full'>
                <p className='text-white md:text-md md:mb-5 text-base '>Work with an individual freelancer of your choice, schedure time share ideas and payment. You will thank us later.
                </p>
