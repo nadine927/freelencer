@@ -24,7 +24,7 @@ export default function Services (){
             <input type="text" placeholder="" className="h-10 w-full outline-none mx-3"/>
             </div>
             <div className="h-10 w-1/3 bg-gold mt-6">
-                <button className="btn text-xl ml-10 mt-1 text-white md:mx-5 font-Poppins">Search</button>
+                <button className="btn text-lg ml-10 mt-1 text-white md:mx-5 my-5 font-Poppins">Search</button>
             </div>
         </div>
         </div>

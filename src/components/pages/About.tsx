@@ -15,7 +15,7 @@ export default function About (){
         <Background/>
          <Navbar/>
 
-            <div className="relative mt-52 md:mt-80 md:w-full w-5/6 ml-5 text-white font-Poppins">
+            <div className="relative mt-52 md:mt-72 md: w-5/6  ml-5 text-white font-Poppins">
                <p className='md:ml-11'>We enable companies, individual and privates to successfully
                work together in a<br></br>
                    professional virtual colaboration, with trusted environment.

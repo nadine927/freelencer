@@ -14,7 +14,7 @@ export default function Navbar(){
        <div className="h-0 md:h-0 w-full md:w-1/2 relative bg-mobile">
             <div className="hidden md:block">
                 <div className="flex justify-between h-20 w-full ml-20 md:ml-16">
-                <a className="pt-14 text-gold font-extrabold text-xl font-Poppins" href={FrontEndEnums.Home} >HOME</a>
+                <a className="pt-14 text-gold font-extrabold text-xl font-Poppins-extra-bold-800" href={FrontEndEnums.Home} >HOME</a>
                 <a className="pt-14 text-white text-xl font-Poppins hover:font-bold  hover:text-gold" href={FrontEndEnums.About}>About</a>
                 <a className="pt-14 text-white  text-xl font-Poppins hover:font-bold  hover:text-gold" href={FrontEndEnums.Service}>Services</a>
                 <a className="pt-14  text-white text-xl font-Poppins hover:font-bold  hover:text-gold" href={FrontEndEnums.Support }>Support</a>

@@ -40,7 +40,7 @@ export default function Home(){
            <div  className='h-16 w-full md:ml-0 ml-5 md:w-full'>
                <p className='text-white md:text-md md:mb-5 text-base '>Work with an individual freelancer of your choice, schedure time share ideas and payment. You will thank us later.
                </p>
-           </div>
+        </div>
            <div className='h-16 w-5/6 md:w-full  md:ml-0 ml-5 flex mt-3 md:mt-2'>
 
                <div className='h-8 w-1/2 rounded-sm '>
