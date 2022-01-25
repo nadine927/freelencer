@@ -10,7 +10,6 @@ import { FrontEndEnums } from '../utils/enum'
 
 
 
-
 export default function Home(){
 
     useEffect(()=>{
@@ -36,7 +35,7 @@ export default function Home(){
         <Navbar/>
 
         {show?
-        <div data-aos="fade-down" className='h-auto md:mt-32 mt-52 md:ml-16 md:w-2/5 font-Poppins relative'>
+        <div data-aos="fade-down" className='h-full md:mt-32 mt-52 md:ml-16 md:w-2/5 font-Poppins relative'>
            <div  className='h-16 w-full md:ml-0 ml-5 md:w-full'>
                <p className='text-white md:text-md md:mb-5 text-base '>Work with an individual freelancer of your choice, schedure time share ideas and payment. You will thank us later.
                </p>
@@ -100,6 +99,8 @@ export default function Home(){
 
                 </div>
             </div>
+
+
         </div>:
         <span></span>
         }
@@ -109,7 +110,7 @@ export default function Home(){
                 <p className='text-white text-md mt-2 px-2 ml-3 font-Poppins'> Hire affordable professinal individual or a team of freelancers</p>
                 <p className='text-white text-md px-2 ml-3 font-Poppins'>We are here to faster your work, and deadlines to help your stay the best</p>
 
-            <div className='h-14 w-full mt-2 flex '>
+            <div className='md:h-14 h-60 w-full mt-2 flex '>
 
                 <div className='h-14 w-3/6 border-2 border-gold ml-4'>
                     <a>
@@ -125,7 +126,7 @@ export default function Home(){
                 </div>
             </div>
             </div>:
-            <span>
+            <span className=''>
 
             </span>
     }
